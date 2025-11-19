@@ -12,7 +12,7 @@ Se realizo la configuraciones necesarias para añadir la navegacion del ficheros
 # Se realizo la modificacion del app.json
 ![ModificacionDos](/docs/image/json2.png)
 
-# Se instalo borra cache del empaquetador
+# Se instalo el cache del empaquetador
 ![DependeciaDos](/docs/image/conf2.png)
 
 [Volver al Readme](../README.md)

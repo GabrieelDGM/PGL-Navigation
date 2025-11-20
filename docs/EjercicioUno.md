@@ -9,7 +9,7 @@ Se realizo la configuraciones necesarias para añadir la navegacion del ficheros
 # Se realizo la modificacion en el package.json "MAIN"
 ![ModificacionUno](/docs/image/json.png)
 
-# Se realizo la modificacion del app.json
+# Se realizo la modificacion del app.json "SCHEME"
 ![ModificacionDos](/docs/image/json2.png)
 
 # Se instalo el cache del empaquetador

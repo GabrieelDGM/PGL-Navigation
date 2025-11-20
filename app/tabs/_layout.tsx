@@ -4,6 +4,8 @@ import PortfolioHeader from "../components/PortflioHeader";
 
 export default function TabsLayout() {
     return (
+
+        
         <View style={styles.container}>
             <PortfolioHeader />
 
@@ -24,6 +26,23 @@ export default function TabsLayout() {
                         tabBarIcon: ({ focused }) => (
                             <Image
                                 source={require("./image/goku.png")}
+                                style={{
+                                    width: 28,
+                                    height: 28,
+                                    tintColor: focused ? "#000000ff" : "#000000ff",
+                                }}
+                            />
+                        ),
+                    }}
+                />
+
+                <Tabs.Screen
+                    name="lista"
+                    options={{
+                        title: "Lista Anime",
+                        tabBarIcon: ({ focused }) => (
+                            <Image
+                                source={require("../image/onepiece.jpg")}
                                 style={{
                                     width: 28,
                                     height: 28,

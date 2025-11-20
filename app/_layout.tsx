@@ -1,4 +1,6 @@
-import {Drawer} from "expo-router/drawer";
+import { Drawer } from "expo-router/drawer";
+
+
 export default function Layout() {
     return (
         <Drawer
@@ -6,15 +8,17 @@ export default function Layout() {
                 headerShown: true,
             }}
         >
+
             <Drawer.Screen
-            name="portada"
-            options={{title: "Portada",}}
+                name="portada/portada"
+                options={{ title: "Portada" }}
             />
+
+
             <Drawer.Screen
-            name="tabs/_layout"
-            options={{title: "Portfolio",}}
+                name="tabs"
+                options={{ title: "Portfolio" }}
             />
         </Drawer>
     );
 }
-    

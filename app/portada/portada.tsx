@@ -4,7 +4,7 @@ import { ImageBackground, StyleSheet, Text, TouchableOpacity, View } from "react
 export default function portada() {
   return (
     <ImageBackground
-      source={require("./image/portada.tsx")}
+      source={require("./image/portada.jpg")}
       style={styles.background}
       resizeMode="cover"
     >

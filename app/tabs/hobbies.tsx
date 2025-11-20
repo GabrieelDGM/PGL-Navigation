@@ -26,29 +26,29 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         padding: 30,    
-        backgroundColor: '#cecacaff',
+        backgroundColor: '#ffffffff',
     },
     title: {
-        fontSize: 35,
-        fontWeight: '500',
+        fontSize: 30,
+        fontWeight: '300',
         textTransform: "capitalize",
         textAlign: "center",
         
     },
     list: {
-        marginTop: 40,
+        marginTop: 20,
     },
     item: {
-    borderWidth: 5,
-    borderColor: "beige",
-    padding: 20,
+    borderWidth: 3,
+    borderColor: "red",
+    padding: 15,
     color: "black",
     textAlign: "center",
     fontWeight: "400",
     fontSize: 18,
-    backgroundColor: "lightgray",
-    marginBottom: 8,
-    borderRadius: 10,
+    backgroundColor: "white",
+    marginBottom: 7,
+    borderRadius: 15,
     },
 });
 

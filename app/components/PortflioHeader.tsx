@@ -5,7 +5,7 @@ export default function PortfolioHeader() {
     <View style={styles.container}>
       <Image
         style={styles.avatar}
-        source={require("../components/image/luffy.png")} 
+        source={require("../components/image/luffyDos.png")} 
       />
 
       <View style={styles.infoContainer}>
@@ -23,17 +23,17 @@ export default function PortfolioHeader() {
 const styles = StyleSheet.create({
   container: {
     flexDirection: "row",
-    padding: 16,
-    backgroundColor: "#f2f2f2",
+    padding: 10,
+    backgroundColor: "#ffffffff",
     borderBottomWidth: 1,
-    borderColor: "#ccc",
+    borderColor: "#ffffffff",
     alignItems: "center",
   },
   avatar: {
-    width: 90,
-    height: 90,
-    borderRadius: 100,
-    marginRight: 16,
+    width: 100,
+    height: 120,
+    borderRadius: 10,
+    marginRight: 10,
   },
   infoContainer: {
     flex: 1,
@@ -42,12 +42,15 @@ const styles = StyleSheet.create({
     padding: 10,
   },
   title: {
-    fontWeight: "700",
-    fontSize: 20,
+    fontWeight: "800",
+    fontSize: 25,
     textAlign: "center",
-    marginBottom: 6,
+    marginBottom: 10,
   },
   description: {
-    color: "#444",
+    color: "#000000ff",
+    borderColor: "red",
+    borderWidth: 2,
+    padding: 5,
   },
 });

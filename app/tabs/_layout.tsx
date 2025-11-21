@@ -29,7 +29,7 @@ export default function TabsLayout() {
                                 style={{
                                     width: 28,
                                     height: 28,
-                                    tintColor: focused ? "#000000ff" : "#000000ff",
+                                    
                                 }}
                             />
                         ),
@@ -37,16 +37,16 @@ export default function TabsLayout() {
                 />
 
                 <Tabs.Screen
-                    name="lista"
+                    name="list"
                     options={{
                         title: "Lista Anime",
                         tabBarIcon: ({ focused }) => (
                             <Image
-                                source={require("../image/onepiece.jpg")}
+                                source={require("./image/onepiece.jpg")}
                                 style={{
                                     width: 28,
                                     height: 28,
-                                    tintColor: focused ? "#000000ff" : "#000000ff",
+                                    
                                 }}
                             />
                         ),
@@ -63,7 +63,7 @@ export default function TabsLayout() {
                                 style={{
                                     width: 30,
                                     height: 30,
-                                    tintColor: focused ? "#000000ff" : "#000000ff",
+                                    
                                 }}
                             />
                         ),

@@ -8,56 +8,56 @@ export default function AnimeList() {
       nombre: "One Piece",
       categoria: "Categoria: Shōnen",
       precio: "Precio: 100 millones USD",
-      imagen: require("../app/image/onepiece.jpg"),
+      imagen: require("./image/onepiece.jpg"),
     },
     {
       id: 2,
       nombre: "Naruto",
       categoria: "Categoria:Shōnen",
       precio: "Precio: 95 millones USD",
-      imagen: require("../app/image/naruto.jpg"),
+      imagen: require("./image/naruto.jpg"),
     },
     {
       id: 3,
       nombre: "Shingeki no Kyojin",
       categoria: "Categoria: Seinen",
       precio: "Precio: 80 millones USD",
-      imagen: require("../app/image/ataque.jpg"),
+      imagen: require("./image/ataque.jpg"),
     },
     {
       id: 4,
       nombre: "Kimetsu no Yaiba",
       categoria: "Categoria: Shōnen",
       precio: "Precio: 70 millones USD",
-      imagen: require("../app/image/kimetsu.jpg"),
+      imagen: require("./image/kimetsu.jpg"),
     },
     {
       id: 5,
       nombre: "Dandanda",
       categoria: "Categoria Shōnen",
       precio: "Precio: 50 millones USD",
-      imagen: require("../app/image/dadan.jpg"),
+      imagen: require("./image/dadan.jpg"),
     },
     {
       id: 6,
       nombre: "Jujutsu Kaisen",
       categoria: "Categoria: Shōnen",
       precio: "Precio 60 millones USD",
-      imagen: require("../app/image/jujutsu.jpg"),
+      imagen: require("./image/jujutsu.jpg"),
     },
     {
       id: 7,
       nombre: " Solo Leveling",
       categoria: "Categoria: Shōnen",
       precio: "Precio: 45 millones USD",
-      imagen: require("../app/image/solo.jpg"),
+      imagen: require("./image/solo.jpg"),
     },
     {
       id: 8,
       nombre: "Sono Bisque Doll wa Koi wo Suru",
       categoria: "Categoria: Romncom",
       precio: "Precio: 40 millones USD",
-      imagen: require("../app/image/sono.jpg"),
+      imagen: require("./image/sono.jpg"),
 
     },
     {
@@ -65,14 +65,14 @@ export default function AnimeList() {
       nombre: "Black Clover",
       categoria: " Categoria: Shōnen",
       precio: " Precio 55 millones USD",
-      imagen: require("../app/image/black.jpg"),
+      imagen: require("./image/black.jpg"),
     },
     {
       id: 10,
       nombre: "Monster",
       categoria: "Categoria: Psicológico",
       precio: "Precio: 30 millones USD",
-      imagen: require("../app/image/monster.jpg"),
+      imagen: require("./image/monster.jpg"),
     }
 
 
@@ -102,15 +102,15 @@ export default function AnimeList() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#e1d7ceff",
+    backgroundColor: "#ffffffff",
     padding: 20,
   },
   title: {
-    fontSize: 30,
+    fontSize: 25,
     fontWeight: "bold",
     textAlign: "center",
     marginBottom: 10,
-    color: "#5D534A",
+    color: "#000000ff",
   },
   card: {
     backgroundColor: "#fffffaff",

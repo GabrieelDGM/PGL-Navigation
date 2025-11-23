@@ -2,7 +2,7 @@
  
  Enlaces para la documentacion
  [EjercicioUno](/docs/EjercicioUno.md)
- [EjercicioDos](/docs/EjericicoDos.md.md)
+ [EjercicioDos](/docs/EjercicioDos.md)
  [EjercicioTres](/docs/EjercicioTres.md)
  [EjercicioCuatro](/docs/EjercicioCuatro.md)
  [EjercicioCinco](/docs/EjercicioCinco.md)

@@ -1,6 +1,6 @@
 import { Tabs } from "expo-router";
 import { View, StyleSheet, Image } from "react-native";
-import PortfolioHeader from "../components/PortflioHeader";
+import PortfolioHeader from "../../components/PortflioHeader";
 
 export default function TabsLayout() {
     return (
@@ -25,10 +25,11 @@ export default function TabsLayout() {
                         title: "Mis Hobbies",
                         tabBarIcon: ({ focused }) => (
                             <Image
-                                source={require("./image/goku.png")}
+                                source={require("../../assets/image/goku.png")}
                                 style={{
                                     width: 28,
                                     height: 28,
+                                    borderRadius: 15,
                                     
                                 }}
                             />
@@ -36,22 +37,6 @@ export default function TabsLayout() {
                     }}
                 />
 
-                <Tabs.Screen
-                    name="list"
-                    options={{
-                        title: "Lista Anime",
-                        tabBarIcon: ({ focused }) => (
-                            <Image
-                                source={require("./image/onepiece.jpg")}
-                                style={{
-                                    width: 28,
-                                    height: 28,
-                                    
-                                }}
-                            />
-                        ),
-                    }}
-                />
 
                 <Tabs.Screen
                     name="qrcode"
@@ -59,10 +44,11 @@ export default function TabsLayout() {
                         title: "Mi Repositorio",
                         tabBarIcon: ({ focused }) => (
                             <Image
-                                source={require("./image/saitama.png")}
+                                source={require("../../assets/image/saitama.png")}
                                 style={{
                                     width: 30,
                                     height: 30,
+                                    borderRadius: 15,
                                     
                                 }}
                             />

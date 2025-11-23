@@ -52,13 +52,13 @@ const styles = StyleSheet.create({
   },
   subtitle: {
     fontSize: 18,
-    color: "#eee",
+    color: "#a42121cc",
     textAlign: "center",
     marginBottom: 30,
     textShadowColor: "#000",
   },
   button: {
-    backgroundColor: "#ffffffcc",
+    backgroundColor: "#a42121cc",
     paddingVertical: 15,
     paddingHorizontal: 40,
     borderRadius: 12,

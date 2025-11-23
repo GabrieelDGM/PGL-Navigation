@@ -2,10 +2,10 @@
  
  Enlaces para la documentacion
  [EjercicioUno](/docs/EjercicioUno.md)
- [EjercicioUno](/docs/EjercicioDos.md)
- [EjercicioUno](/docs/EjercicioUTres.md)
- [EjercicioUno](/docs/EjercicioCuatro.md)
- [EjercicioUno](/docs/EjercicioCinco.md)
+ [EjercicioDos](/docs/EjericicoDos.md.md)
+ [EjercicioTres](/docs/EjercicioTres.md)
+ [EjercicioCuatro](/docs/EjercicioCuatro.md)
+ [EjercicioCinco](/docs/EjercicioCinco.md)
 
 
 📱 Navegación en React Native con Expo Router — Resumen de la Actividad
